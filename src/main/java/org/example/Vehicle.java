@@ -18,6 +18,10 @@ public class Vehicle {
         startVehicle();
     }
 
+    void motorcycle() {
+        System.out.println("Criando uma moto: " + year + " " + engine + " cilindradas");
+    }
+
     void startVehicle() {
         System.out.println("Ligando os motores");
     }
